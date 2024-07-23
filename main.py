@@ -18,3 +18,11 @@ print(f"2 squared = {2 ** 2}")
 width = 20
 height = 5 * 9
 print(width * height)  # Introducing variables.
+
+"""Addressing a non-existent variable:
+n
+Result:
+Traceback (most recent call last):
+  File "C:/Users/janle/OneDrive/Dokumenty/Python/PycharmProjects/Exercises/main.py", line 23, in <module>
+    n
+NameError: name 'n' is not defined"""
