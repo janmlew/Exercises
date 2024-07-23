@@ -14,3 +14,7 @@ print((50 - 2 * 5) % 6)  # Percent operator returns the remainder of the divisio
 print(6 * 6 + 4)  # This returns the original number before division.
 
 print(f"2 squared = {2 ** 2}")
+
+width = 20
+height = 5 * 9
+print(width * height)  # Introducing variables.
