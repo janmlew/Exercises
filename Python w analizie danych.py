@@ -17,3 +17,15 @@ result = pm.f(5)
 
 r1 = pm.f(pi)
 r2 = gf(6, pi)
+
+print(pi is pi)
+print(pi is not pi)
+
+a = [1, 2, 3]
+b = a
+c = list(a)
+print(a is b)
+print(a is not c)
+print(a == c)
+a = None
+print(a is None)
