@@ -77,4 +77,8 @@ print(fval is not None)
 print(type(None))
 
 dt = datetime(2011, 10, 29, 20, 30, 21)
-print(dt.day)
+print(dt.day)  # dt.minute
+print(dt.date())
+print(dt.time())
+print(dt.strftime('%m/%d/%Y %H:%M'))
+print(dt.strptime('20091031', '%Y%m%d'))
