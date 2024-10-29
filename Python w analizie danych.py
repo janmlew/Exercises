@@ -1,5 +1,6 @@
 import przykladowy_modul as pm
 from przykladowy_modul import PI as pi, g as gf
+from datetime import datetime, date, time
 
 
 def isiterable(obj):
@@ -59,4 +60,21 @@ print('12\\34')
 print(r'text\text\text\text')  # r = raw text
 print('first part ' + 'second part')
 
+template = "{0:.2f} {1:s} is an equivalent of ${2:d}."
+print(template.format(4.556, "Peso", 1))
 
+val = "español"
+val_utf8 = val.encode("utf-8")  # or 'latin1', 'utf-16', 'utf-16le'
+print(val_utf8)
+print(type(val_utf8))
+print(val_utf8.decode('utf-8'))
+
+s = '3.14159'
+fval = float(s)
+fval = int(fval)
+print(bool(fval))
+print(fval is not None)
+print(type(None))
+
+dt = datetime(2011, 10, 29, 20, 30, 21)
+print(dt.day)
