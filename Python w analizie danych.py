@@ -82,3 +82,20 @@ print(dt.date())
 print(dt.time())
 print(dt.strftime('%m/%d/%Y %H:%M'))
 print(dt.strptime('20091031', '%Y%m%d'))
+'''
+%Y - yyyy
+%y - yy
+%m - mm [0, 11]
+%d - dd
+%H - 24h
+%I - 12h
+%M - mm [0, 59]
+%S - ss [0, 61] where 60 & 61 represent jump (?)
+%w - w [0, 6] where 0 = Sunday & 6 = Saturday
+%U - ww [00, 53] Sunday is the first day of the week, days before it are in week 0 
+%W - ww [00, 53] Monday is the first day of the week, days before it are in week 0
+%z - UTC time zone shift +HHMM or -HHMM; empty = default
+%F - %Y-%m-%d (e.g. 2012-4-18)
+%D - %m/%d/%y (e.g. 04/18/12) 
+'''
+print(dt.replace(minute=0, second=0))
