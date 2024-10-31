@@ -99,3 +99,8 @@ print(dt.strptime('20091031', '%Y%m%d'))
 %D - %m/%d/%y (e.g. 04/18/12) 
 '''
 print(dt.replace(minute=0, second=0))
+
+dt2 = datetime(2011, 11, 15, 22, 30)
+delta = dt2 - dt
+print(delta)
+print(type(delta))
