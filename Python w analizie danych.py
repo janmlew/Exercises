@@ -104,3 +104,11 @@ dt2 = datetime(2011, 11, 15, 22, 30)
 delta = dt2 - dt
 print(delta)
 print(type(delta))
+
+sequence = [1, 2, None, 4, None, 5]
+summary = 0
+for val in sequence:
+    if val is None:
+        continue
+    summary += val
+print(summary)
