@@ -112,3 +112,10 @@ for val in sequence:
         continue
     summary += val
 print(summary)
+
+sequence2 = [1, 2, 0, 4, 6, 5, 2, 1]
+sum_to_5 = 0
+for value in sequence2:
+    if value == 5:
+        break
+    sum_to_5 += value
