@@ -119,3 +119,4 @@ for value in sequence2:
     if value == 5:
         break
     sum_to_5 += value
+print(sum_to_5)
